@@ -97,7 +97,7 @@ def zero_changer(tuple_of_lists):
             if sublist[j] == 0:
                 sublist[j] = num
                 num = num + 1
-    return tuple_of_lists
+
 
 
 

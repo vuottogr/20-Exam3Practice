@@ -111,7 +111,7 @@ def hourglass(window, n, point, radius, color):
     line1.attach_to(window)
     original_circle = rg.Circle(rg.Point(point.x - (n - 1) * radius, point.y - (radius * (n + 1))), radius)
 
-    
+
 
 def run_test_many_hourglasses():
     """ Tests the    many_hourglasses    function. """
